@@ -1,15 +1,10 @@
 import React from "react";
+import backgroundHeader from "../images/bg-header-desktop.svg";
 
 const Header = () => {
   return (
-    <div
-      style={{
-        background: "cyan",
-        width: "100%",
-        height: "80px",
-        margin: "-3",
-      }}>
-      <div>DevJobs</div>
+    <div className="header-style">
+      <img src={backgroundHeader} alt="backgroundImage" />
     </div>
   );
 };
